@@ -14,7 +14,16 @@ export const config = {
                     thresholds: [0.5, 5],
                 }
             ],
-            defaultCategory: 'precise'
+            defaultCategory: 'precise',
+        },
+        humidity: {
+            categories: [
+                {
+                    name: 'keep',
+                    thresholds: [1],
+                }
+            ],
+            defaultCategory: 'discard',
         }
     }
 };
