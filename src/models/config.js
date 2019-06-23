@@ -24,6 +24,15 @@ export const config = {
                 }
             ],
             defaultCategory: 'discard',
+        },
+        carbonMonoxide: {
+            categories: [
+                {
+                    name: 'keep',
+                    thresholds: [3],
+                },
+            ],
+            defaultCategory: 'discard',
         }
     }
 };
