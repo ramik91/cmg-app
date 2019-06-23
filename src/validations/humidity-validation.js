@@ -3,7 +3,7 @@
  * 
  * @implements {SensorValidation}
  */
-export class HumiditySensorValidation {
+export class HumidityValidation {
     /**
      * @param {ReferenceValues} reference 
      * @param {ValidationConfig} config 

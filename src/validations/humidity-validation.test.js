@@ -1,12 +1,12 @@
-import { HumiditySensorValidation } from './humidity-sensor-validation';
+import { HumidityValidation } from './humidity-validation';
 import { config } from '../models/config';
 
-describe('HumiditySensorValidation: validate', () => {
-    /** @type {HumiditySensorValidation} */
+describe('HumidityValidation: validate', () => {
+    /** @type {HumidityValidation} */
     let validation;
     /** @type {ReferenceValues} */
     const reference = {
-        carbon: 6,
+        carbonMonoxide: 6,
         humidity: 45,
         temperature: 70
     };
@@ -16,7 +16,7 @@ describe('HumiditySensorValidation: validate', () => {
     const discardValues = [47, ...keepValues, 43];
 
     beforeAll(() => {
-        validation = new HumiditySensorValidation(
+        validation = new HumidityValidation(
             reference,
             config.validations.humidity
         );
