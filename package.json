@@ -1,0 +1,25 @@
+{
+  "name": "cmg-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramik91/cmg-app.git"
+  },
+  "author": "Jakub Stebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramik91/cmg-app/issues"
+  },
+  "homepage": "https://github.com/ramik91/cmg-app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0"
+  }
+}
