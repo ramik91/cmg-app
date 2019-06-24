@@ -24,7 +24,7 @@ describe('math-utils: getStdDev', () => {
     const sameValues = new Array(10).fill(2);
 
     test('it should compute standard deviation: 0', () => {
-        /** @type {nummber} */
+        /** @type {number} */
         const stdDev = getStdDev(sameValues);
 
         expect(stdDev).toBe(0);

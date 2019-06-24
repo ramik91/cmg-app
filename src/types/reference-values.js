@@ -2,5 +2,5 @@
  * @typedef {Object} ReferenceValues
  * @property {number} temperature
  * @property {number} humidity
- * @property {number} carbonMonoxide
+ * @property {number} monoxide
  */
