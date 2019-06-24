@@ -21,7 +21,7 @@ describe('log-text-parser: parse', () => {
         const log = parse(readingMock);
 
         expect(log.reference).toEqual({
-            carbonMonoxide: 6,
+            monoxide: 6,
             humidity: 45,
             temperature: 70,
         });

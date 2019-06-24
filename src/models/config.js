@@ -25,7 +25,7 @@ export const config = {
             ],
             defaultCategory: 'discard',
         },
-        carbonMonoxide: {
+        monoxide: {
             categories: [
                 {
                     name: 'keep',

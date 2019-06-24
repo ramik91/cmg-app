@@ -19,7 +19,7 @@ describe('parser-utils: getReferenceValues', () => {
         const text = `reference ${values.join(' ')}`;
 
         expect(parserUtils.getReferenceValues(text)).toEqual({
-            carbonMonoxide: values[2],
+            monoxide: values[2],
             humidity: values[1],
             temperature: values[0]
         });

@@ -6,7 +6,7 @@ describe('HumidityValidation: validate', () => {
     let validation;
     /** @type {ReferenceValues} */
     const reference = {
-        carbonMonoxide: 6,
+        monoxide: 6,
         humidity: 45,
         temperature: 70
     };

@@ -21,7 +21,7 @@ export class CarbonMonoxideValidation {
      */
     validate(values) {
         /** @type {number[]} */
-        const referenceDiffs = values.map((value) => Math.abs(this.reference.carbonMonoxide - value));
+        const referenceDiffs = values.map((value) => Math.abs(this.reference.monoxide - value));
         /** @type {PrecisionCategory} */
         let precisionCategory = this.config.categories.find((category) => {
             return referenceDiffs.length && referenceDiffs.every((diff) => diff <= category.thresholds[0]);

@@ -6,7 +6,7 @@ describe('CarbonMonoxideValidation: validate', () => {
     let validation;
     /** @type {ReferenceValues} */
     const reference = {
-        carbonMonoxide: 6,
+        monoxide: 6,
         humidity: 45,
         temperature: 70,
     };
@@ -17,7 +17,7 @@ describe('CarbonMonoxideValidation: validate', () => {
     beforeAll(() => {
         validation = new CarbonMonoxideValidation(
             reference,
-            config.validations.carbonMonoxide,
+            config.validations.monoxide,
         );
     });
 

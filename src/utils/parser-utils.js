@@ -21,7 +21,7 @@ export const getReferenceValues = referenceString => {
     );
 
     return {
-        carbonMonoxide,
+        monoxide: carbonMonoxide,
         humidity,
         temperature
     };
